@@ -1,0 +1,20 @@
+{
+  "name": "penguin-fashion-000",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000p\u0000e\u0000n\u0000g\u0000u\u0000i\u0000n\u0000-\u0000f\u0000a\u0000s\u0000h\u0000i\u0000o\u0000n\u0000-\u00000\u00000\u00000\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10"
+  },
+  "dependencies": {
+    "vite": "^5.4.1"
+  }
+}
