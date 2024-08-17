@@ -6,10 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+    <header class="bg-[#FFFBF0]">
+        <!-- nav start here -->
+        <nav class="flex justify-center sm:flex sm:items-center sm:justify-evenly py-8 ">
+            <div>
+                <img class="sm:w-80 w-9/12" src="icons/logo.png" alt="">
+            </div>
+            <div>
+                <ul class=" flex">
+                    <li class="px-4 hidden sm:block ">Home</li>
+                    <li class="px-4 hidden sm:block ">Product</li>
+                    <li class="px-4 hidden sm:block ">About Us</li>
+                    <li class="px-4 hidden sm:block ">Contact US</li>
+                    <li><i class="fa-solid fa-bars sm:invisible visible mr-2 mt-3" style="color: #000000;"></i>
+                    </li>
+                </ul>
 
+            </div>
+        </nav>
+        <!-- banner section start here -->
+        <section>
+            <div class="sm:flex sm:justify-evenly sm:items-center w-11/12 pl-3">
+                <div>
+                    <h1 class="font-medium text-7xl mb-4"><span class="text-[#FABE4C] ">Be the Penguins</span> <br>
+                        <span class="text-[#363958]">of Winter</span>
+                    </h1>
+                    <p class=" font-normal text-xl mb-2">Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry.</p>
+                    <button
+                        class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-4 px-8 rounded-lg text-white font-bold"><i
+                            class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> BUY NOW</button>
+                </div>
+                <div>
+                    <img class="items-center w-11/12 sm:" src="images/model.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
 </body>
 
 </html>
