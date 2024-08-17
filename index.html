@@ -9,9 +9,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .roboto-regular {
+            font-family: "Roboto", sans-serif;
+        }
+
+        .bebas-neue-regular {
+            font-family: "Bebas Neue", sans-serif;
+        }
+    </style>
 </head>
 
-<body>
+<body class="roboto-regular">
     <header class="bg-[#FFFBF0]">
         <!-- nav start here -->
         <nav class="flex justify-center sm:flex sm:items-center sm:justify-evenly py-8 ">
@@ -19,7 +34,7 @@
                 <img class="sm:w-80 w-9/12" src="icons/logo.png" alt="">
             </div>
             <div>
-                <ul class=" flex">
+                <ul class=" flex font-medium">
                     <li class="px-4 hidden sm:block ">Home</li>
                     <li class="px-4 hidden sm:block ">Product</li>
                     <li class="px-4 hidden sm:block ">About Us</li>
@@ -34,7 +49,9 @@
         <section>
             <div class="sm:flex sm:justify-evenly sm:items-center w-11/12 pl-3">
                 <div>
-                    <h1 class="font-medium text-7xl mb-4"><span class="text-[#FABE4C] ">Be the Penguins</span> <br>
+                    <h1 class="font-medium text-7xl mb-4 uppercase bebas-neue-regular"><span class="text-[#FABE4C] ">Be
+                            the Penguins</span>
+                        <br>
                         <span class="text-[#363958]">of Winter</span>
                     </h1>
                     <p class=" font-normal text-xl mb-2">Lorem Ipsum is simply dummy text of the printing
@@ -44,11 +61,81 @@
                             class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> BUY NOW</button>
                 </div>
                 <div>
-                    <img class="items-center w-11/12 sm:" src="images/model.png" alt="">
+                    <img class="items-center w-11/12 " src="images/model.png" alt="">
                 </div>
             </div>
         </section>
     </header>
+    <main>
+        <!-- W0Man Jacket -->
+        <section>
+            <h1
+                class="font-medium text-5xl uppercase text-[#363958] mt-8 text-center sm:text-left sm:ml-16  bebas-neue-regular">
+                W0Man
+                Jacket
+            </h1>
+            <div class="sm:flex sm:mx-auto sm:justify-center">
+                <div class="">
+                    <div class="box-1 border drop-shadow-md sm:w-9/12  p-4 m-4 rounded-lg">
+                        <div>
+                            <img class="p-4 mb-4 rounded-lg bg-[#F1F1F1]" src="images/jacket-1.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-[#363958]  text-2xl font-bold ">Yellow Coat Jacket </h1>
+                            <p class="text-xl text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
+                            <div class="flex items-center justify-between mt-2">
+                                <h1 class="text-[#FABE4C]  text-3xl font-extrabold">$234</h1>
+                                <button
+                                    class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-4 px-8 rounded-lg text-white font-bold"><i
+                                        class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> BUY NOW</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="box-1 border drop-shadow-md sm:w-9/12  p-4 m-4 rounded-lg">
+                        <div>
+                            <img class="p-4 mb-4 rounded-lg bg-[#F1F1F1]" src="images/jacket-2.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-[#363958]  text-2xl font-bold ">Yellow Coat Jacket </h1>
+                            <p class="text-xl text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
+                            <div class="flex items-center justify-between mt-2">
+                                <h1 class="text-[#FABE4C]  text-3xl font-extrabold">$234</h1>
+                                <button
+                                    class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-4 px-8 rounded-lg text-white font-bold"><i
+                                        class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> BUY NOW</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="box-1 border drop-shadow-md sm:w-9/12  p-4 m-4 rounded-lg">
+                        <div>
+                            <img class="p-4 mb-4 rounded-lg bg-[#F1F1F1]" src="images/jacket-3.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-[#363958]  text-2xl font-bold ">Yellow Coat Jacket </h1>
+                            <p class="text-xl text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
+                            <div class="flex items-center justify-between mt-2">
+                                <h1 class="text-[#FABE4C]  text-3xl font-extrabold">$234</h1>
+                                <button
+                                    class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-4 px-8 rounded-lg text-white font-bold"><i
+                                        class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> BUY NOW</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
 </body>
 
 </html>
